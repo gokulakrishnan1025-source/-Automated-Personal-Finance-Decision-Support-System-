@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap');
+html, body, [class*="css"] { font-family: 'Source Sans 3', sans-serif; }
+h1, h2, h3 { font-family: 'Sora', sans-serif; color: #10243E; letter-spacing: -0.01em; }
+[data-testid="stSidebar"] { background: #10243E; }
+[data-testid="stSidebar"] * { color: #E6EEF5 !important; }
+[data-testid="stMetric"] { background: #fff; border: 1px solid #D9E1E8; border-left: 4px solid #0B7A75;
+  border-radius: 6px; padding: 14px 16px; }
+[data-testid="stMetricValue"] { font-family: 'Sora', sans-serif; color: #10243E; }
+.hero { border-left: 6px solid #0B7A75; padding: 8px 0 8px 20px; margin-bottom: 18px; }
+.hero h1 { font-size: 2.2rem; margin: 0 0 6px; }
+.hero p { font-size: 1.1rem; max-width: 62ch; color: #3B4B5C; margin: 0; }
+.tag { display: inline-block; padding: 2px 10px; border-radius: 4px; font-size: .85rem; font-weight: 600; }
+.tag-rule { background: #FCEFD6; color: #8A5A0A; }
+.tag-stat { background: #D9EFEE; color: #08524E; }
+.note { color: #5A6B7B; font-size: .9rem; }
+@media (max-width: 640px) { .hero h1 { font-size: 1.6rem; } }
