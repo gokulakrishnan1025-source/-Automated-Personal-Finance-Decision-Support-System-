@@ -18,7 +18,7 @@ from financial_health import health_score
 from reports import build_report
 
 st.set_page_config(page_title="Finance Decision Support", page_icon="₹", layout="wide")
-st.markdown(f"<style>{(Path(__file__).parent / 'assets' / 'style.css').read_text(encoding='utf-8')}</style>",
+st.markdown(f"<style>{(Path(__file__).parent / 'style.css').read_text(encoding='utf-8')}</style>",
             unsafe_allow_html=True)
 if "conn" not in st.session_state:          # private, in-memory database per visitor
     st.session_state.conn = dm.connect()
