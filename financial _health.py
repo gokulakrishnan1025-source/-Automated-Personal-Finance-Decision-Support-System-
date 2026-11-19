@@ -6,7 +6,7 @@ LABELS = [(80, "Excellent"), (60, "Good"), (40, "Fair"), (0, "Needs attention")]
 def classify(score):
     """Map a numeric score to a label."""
     return next(label for floor, label in LABELS if score >= floor)
-
+ 
 
 def health_score(savings_pct, adherence, *, expense_pct):
     """50 pts savings rate (20% = full marks), 30 pts budget adherence,
